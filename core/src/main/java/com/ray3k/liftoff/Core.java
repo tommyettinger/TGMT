@@ -15,9 +15,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.*;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
-import com.github.tommyettinger.textra.TextraLabel;
+import com.github.tommyettinger.textra.TypingLabel;
 import com.ray3k.liftoff.Room.*;
-import com.ray3k.stripe.FreeTypeSkin;
 import com.ray3k.stripe.ScrollFocusListener;
 
 public class Core extends ApplicationAdapter {
@@ -32,7 +31,7 @@ public class Core extends ApplicationAdapter {
     
     @Override
     public void create() {
-        skin = new FreeTypeSkin(Gdx.files.internal("skin/skin.json"));
+        skin = new FreeTypistSkin(Gdx.files.internal("skin/skin.json"));
         viewport = new ScreenViewport();
         stage = new Stage(viewport);
         Gdx.input.setInputProcessor(stage);
@@ -50,6 +49,7 @@ public class Core extends ApplicationAdapter {
     
     @Override
     public void resize(int width, int height) {
+        if(width <= 0 || height <= 0) return;
         stage.getViewport().update(width, height, true);
     }
     
@@ -218,7 +218,7 @@ public class Core extends ApplicationAdapter {
                 if (element instanceof TextElement) {
                     var textElement = (TextElement) element;
                     
-                    var label = new TextraLabel(textElement.text, skin);
+                    var label = new TypingLabel(textElement.text, skin);
                     label.setWrap(true);
                     table.add(label).growX();
                 }

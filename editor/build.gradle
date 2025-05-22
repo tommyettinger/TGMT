@@ -13,10 +13,11 @@ dependencies {
 	api "org.lwjgl:lwjgl-tinyfd:3.2.3:natives-windows"
 	api "org.lwjgl:lwjgl-tinyfd:3.2.3:natives-linux"
 	api "org.lwjgl:lwjgl-tinyfd:3.2.3:natives-macos"
-	api 'com.github.raeleus.TenPatch:tenpatch:5.2.2'
+	api 'com.github.raeleus.TenPatch:tenpatch:5.2.3'
 	api "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-desktop"
-	implementation 'com.github.raeleus:stripe:0.2.0'
-	implementation "space.earlygrey:shapedrawer:2.5.0"
+	implementation 'com.github.raeleus.stripe:stripe:2.0.0'
+	implementation "space.earlygrey:shapedrawer:2.6.0"
+	implementation "com.github.tommyettinger:regexodus:0.1.19"
 }
 
 def os = System.properties['os.name'].toLowerCase()
