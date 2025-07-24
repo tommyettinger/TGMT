@@ -1,4 +1,4 @@
-package com.ray3k.liftoff.editor;
+package com.ray3k.tgmt.editor;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
@@ -10,10 +10,10 @@ import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Array;
-import com.ray3k.liftoff.Room.Action;
+import com.ray3k.tgmt.Room.Action;
 import space.earlygrey.shapedrawer.JoinType;
 
-import static com.ray3k.liftoff.editor.Editor.*;
+import static com.ray3k.tgmt.editor.Editor.*;
 
 public class ConnectorWidget extends Table  {
     private Skin skin;

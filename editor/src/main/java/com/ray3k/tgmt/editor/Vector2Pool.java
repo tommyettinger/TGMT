@@ -1,4 +1,4 @@
-package com.ray3k.liftoff.editor;
+package com.ray3k.tgmt.editor;
 
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Pool;

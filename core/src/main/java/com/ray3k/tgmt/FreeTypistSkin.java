@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.ray3k.liftoff;
+package com.ray3k.tgmt;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.files.FileHandle;
@@ -40,7 +40,6 @@ import com.github.tommyettinger.textra.Styles;
  * using the styles in {@link Styles}, since it allows reading in a skin JSON's styles both as the scene2d.ui format and
  * as styles for TextraTypist widgets. See the
  * <a href="https://github.com/raeleus/skin-composer/wiki/Creating-FreeType-Fonts#using-a-custom-serializer">Skin Composer documentation</a>.
- * If you are using Asset Manager, use {@link FreeTypistSkinLoader}.
  */
 public class FreeTypistSkin extends FWSkin {
     /** Creates an empty skin. */

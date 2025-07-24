@@ -1,4 +1,4 @@
-package com.ray3k.liftoff.editor;
+package com.ray3k.tgmt.editor;
 
 import com.badlogic.gdx.scenes.scene2d.*;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
@@ -6,10 +6,10 @@ import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
-import com.ray3k.liftoff.Room;
-import com.ray3k.liftoff.Room.*;
+import com.ray3k.tgmt.Room;
+import com.ray3k.tgmt.Room.*;
 
-import static com.ray3k.liftoff.editor.Utils.*;
+import static com.ray3k.tgmt.editor.Utils.*;
 
 public class ElementWidget extends Table {
     public TextButton widgetButton;

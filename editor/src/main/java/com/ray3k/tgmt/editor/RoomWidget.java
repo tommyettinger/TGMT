@@ -1,9 +1,9 @@
-package com.ray3k.liftoff.editor;
+package com.ray3k.tgmt.editor;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.ui.*;
-import com.ray3k.liftoff.Room;
+import com.ray3k.tgmt.Room;
 
 public class RoomWidget extends Stack {
     public static int nameIndex;

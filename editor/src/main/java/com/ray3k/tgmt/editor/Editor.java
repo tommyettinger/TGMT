@@ -1,4 +1,4 @@
-package com.ray3k.liftoff.editor;
+package com.ray3k.tgmt.editor;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
@@ -26,10 +26,10 @@ import com.badlogic.gdx.utils.*;
 import com.badlogic.gdx.utils.JsonWriter.OutputType;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
-import com.ray3k.liftoff.Room;
-import com.ray3k.liftoff.Room.*;
-import com.ray3k.liftoff.editor.ConnectorWidget.ConnectorLabel;
-import com.ray3k.liftoff.editor.ElementWidget.ElementWidgetListener;
+import com.ray3k.tgmt.Room;
+import com.ray3k.tgmt.Room.*;
+import com.ray3k.tgmt.editor.ConnectorWidget.ConnectorLabel;
+import com.ray3k.tgmt.editor.ElementWidget.ElementWidgetListener;
 import com.ray3k.stripe.FreeTypeSkin;
 import com.ray3k.stripe.PopTable;
 import com.ray3k.stripe.PopTable.PopTableStyle;
@@ -43,7 +43,7 @@ import java.io.StringWriter;
 import java.lang.StringBuilder;
 import java.util.Locale;
 
-import static com.ray3k.liftoff.editor.Utils.*;
+import static com.ray3k.tgmt.editor.Utils.*;
 
 public class Editor extends ApplicationAdapter implements Lwjgl3WindowListener {
     public static Skin skin;

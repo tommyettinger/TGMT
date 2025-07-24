@@ -1,4 +1,4 @@
-package com.ray3k.liftoff;
+package com.ray3k.tgmt;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
@@ -16,7 +16,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.*;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.github.tommyettinger.textra.TypingLabel;
-import com.ray3k.liftoff.Room.*;
+import com.ray3k.tgmt.Room.*;
 import com.ray3k.stripe.ScrollFocusListener;
 
 public class Core extends ApplicationAdapter {
@@ -43,7 +43,7 @@ public class Core extends ApplicationAdapter {
         root.setBackground(skin.getDrawable("bg-10"));
         stage.addActor(root);
         
-        loadRooms(Gdx.files.internal("template.json"));
+        loadRooms(Gdx.files.internal("basic.json"));
         openRoom(0);
     }
     

@@ -1,8 +1,8 @@
-package com.ray3k.liftoff.lwjgl3;
+package com.ray3k.tgmt.lwjgl3;
 
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
-import com.ray3k.liftoff.Core;
+import com.ray3k.tgmt.Core;
 
 public class Lwjgl3Launcher {
 	public static void main(String[] args) {

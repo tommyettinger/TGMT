@@ -1,11 +1,10 @@
-package com.ray3k.liftoff.gwt;
+package com.ray3k.tgmt.gwt;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
 import com.badlogic.gdx.graphics.g2d.freetype.gwt.FreetypeInjector;
-import com.badlogic.gdx.graphics.g2d.freetype.gwt.inject.OnCompletion;
-import com.ray3k.liftoff.Core;
+import com.ray3k.tgmt.Core;
 
 /** Launches the GWT application. */
 public class GwtLauncher extends GwtApplication {
